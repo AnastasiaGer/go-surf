@@ -708,3 +708,10 @@ body {
   max-width: 1270px;
   padding: 0 15px;
   margin: 0 auto; }
+
+.header__slider-item {
+  height: 100vh;
+  background-image: url("../img/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
