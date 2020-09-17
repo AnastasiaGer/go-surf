@@ -33,10 +33,11 @@ body{
   min-width: 320px;
   overflow-x: hidden;
   position: relative;
-  color: #000;
-  @extend %ubuntu-light;
-  font-size: 17px;
-  line-height: 26px;
+  color: #fff;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
 }
 
 .container{
@@ -45,3 +46,27 @@ body{
   margin: 0 auto;
 }
 
+.suptitle-left{
+  font-size: 22px;
+  line-height: 32px;
+
+  letter-spacing: 7.33333px;
+  text-transform: uppercase;
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
+
+  padding-left: 103px;
+  position: relative;
+  display: inline-block;
+
+  &::before{
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 1px;
+    background-color: #fff;
+    left: 0;
+    top: 50%;
+  }
+}

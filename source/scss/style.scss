@@ -15,7 +15,42 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    position: relative;
   }
+}
+
+.slider-item__info{
+  position: absolute;
+  right: 80px;
+  bottom: 116px;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.slider-item__info-suptitle{
+  margin-bottom: 5px;
+}
+
+.slider-item__info-suptext{
+  margin-bottom: 8px;
+}
+
+.slider-item__info-title{
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 86px;
+  margin-bottom: 48px;
+}
+
+.slider-item__info-text{
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 46px;
+  margin-bottom: 20px;
+}
+
+.slider-item__info-link img{
+  display: inline-block;
 }
 
 @import "media";
