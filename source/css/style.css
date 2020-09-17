@@ -726,6 +726,10 @@ body {
     left: 0;
     top: 50%; }
 
+.header {
+  position: relative;
+  height: 100vh; }
+
 .header__slider-item {
   height: 100vh;
   background-image: url("../img/header-bg.jpg");
@@ -761,3 +765,13 @@ body {
 
 .slider-item__info-link img {
   display: inline-block; }
+
+.slider-arrows {
+  position: absolute;
+  top: 40px;
+  right: 80px;
+  cursor: pointer;
+  z-index: 4; }
+
+.slider-arrows__left {
+  right: 125px; }
