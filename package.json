@@ -9,11 +9,11 @@
     "del": "5.0.0",
     "gulp": "4.0.2",
     "gulp-csso": "4.0.1",
-    "gulp-less": "4.0.1",
     "gulp-plumber": "1.2.1",
     "gulp-postcss": "8.0.0",
     "gulp-posthtml": "3.0.5",
     "gulp-rename": "2.0.0",
+    "gulp-sass": "4.1.0",
     "gulp-sourcemaps": "2.6.5",
     "gulp-svgstore": "7.0.1",
     "gulp-terser": "1.4.0",
@@ -25,7 +25,7 @@
   },
   "scripts": {
     "editorconfig": "editorconfig-cli",
-    "stylelint": "stylelint \"source/less/**/*.less\" --syntax less",
+    "stylelint": "stylelint \"source/scss/**/*.scss\" --syntax scss",
     "test": "npm run stylelint",
     "build": "gulp public",
     "start": "gulp start"
@@ -41,7 +41,7 @@
     "source/*.html",
     "source/js/**/*.js",
     "source/img/**/*.svg",
-    "source/less/**/*.less"
+    "source/scss/**/*.scss"
   ],
   "engines": {
     "node": "10"
