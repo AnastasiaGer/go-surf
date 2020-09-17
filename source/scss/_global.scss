@@ -1,11 +1,11 @@
-html{
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-}
+// html{
+//   box-sizing: border-box;
+//   scroll-behavior: smooth;
+// }
 
-*,*::before, *::after{
-  box-sizing: inherit;
-}
+// *,*::before, *::after{
+//   box-sizing: inherit;
+// }
 
 a{
   text-decoration: none;
@@ -32,18 +32,12 @@ h6{
 body{
   min-width: 320px;
   overflow-x: hidden;
-  position: relative;
+  // position: relative;
   color: #fff;
   font-family: 'Fira Sans', sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
-}
-
-.container{
-  max-width: 1270px;
-  padding: 0 15px;
-  margin: 0 auto;
 }
 
 .suptitle-left{
