@@ -12,6 +12,6 @@ $(function(){
     slidesToShow: 4,
     slidesToScroll: 4,
     asNavFor: '.header__slider',
-  })
+  });
 
 });
