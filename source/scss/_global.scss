@@ -1,11 +1,11 @@
-html{
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-}
+// html{
+//   box-sizing: border-box;
+//   scroll-behavior: smooth;
+// }
 
-*,*::before, *::after{
-  box-sizing: inherit;
-}
+// *,*::before, *::after{
+//   box-sizing: inherit;
+// }
 
 a{
   text-decoration: none;
@@ -32,16 +32,35 @@ h6{
 body{
   min-width: 320px;
   overflow-x: hidden;
+  // position: relative;
+  color: #fff;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.suptitle-left{
+  font-size: 22px;
+  line-height: 32px;
+
+  letter-spacing: 7.33333px;
+  text-transform: uppercase;
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
+
+  padding-left: 103px;
   position: relative;
-  color: #000;
-  @extend %ubuntu-light;
-  font-size: 17px;
-  line-height: 26px;
-}
+  display: inline-block;
 
-.container{
-  max-width: 1270px;
-  padding: 0 15px;
-  margin: 0 auto;
+  &::before{
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 1px;
+    background-color: #fff;
+    left: 0;
+    top: 50%;
+  }
 }
-
