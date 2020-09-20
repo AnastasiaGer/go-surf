@@ -25,7 +25,6 @@
   right: 80px;
   bottom: 116px;
   text-align: right;
-  text-transform: uppercase;
 }
 
 .slider-item__info-suptitle {
@@ -99,7 +98,8 @@
   &__name {
     font-weight: 300;
     font-size: 16px;
-    line-height: 19px;
+    // line-height: 19px;
+    text-transform: capitalize;
   }
 }
 
@@ -111,6 +111,10 @@
   border-right: 1px solid rgba(255, 255, 255, .3);
   height: 100vh;
   text-align: center;
+
+  .logo__img {
+    width: 100px;
+  }
 }
 
 .header__title {
@@ -122,14 +126,12 @@
   font-weight: 800;
   font-size: 200px;
   line-height: 156px;
-
-  text-transform: uppercase;
-
   opacity: 0.07;
 }
 
 .menu {
   padding-top: 40px;
+
   a {
     span {
       display: block;
@@ -139,21 +141,22 @@
       letter-spacing: 3px;
       padding-top: 6px;
       margin-bottom: 20px;
+      text-transform: capitalize;
     }
   }
 }
 
-.header__search{
+.header__search {
   padding-top: 15px;
   padding-bottom: 35px;
 }
 
-.header__date{
+.header__date {
   font-weight: 800;
   font-size: 72px;
   line-height: 64px;
-  }
-  span{
+
+  span {
     display: block;
     font-weight: 300;
     font-size: 16px;
@@ -162,9 +165,11 @@
     letter-spacing: 1.4px;
     margin-bottom: 30px;
     padding-top: 15px;
+  }
 }
 
-.header__location{
+
+.header__location {
   display: inline-block;
   font-weight: 300;
   font-size: 12px;
@@ -173,7 +178,9 @@
   letter-spacing: 1.05px;
   position: relative;
   padding-left: 19px;
-  &::before{
+  text-transform: capitalize;
+
+  &::before {
 
     content: '';
     background-image: url('../img/marker.svg');
@@ -185,31 +192,53 @@
   }
 }
 
-.header__map{
+.header__map {
   position: absolute;
   right: 0;
   top: 0;
   z-index: 3;
 }
 
-.header__arrows{
+.header__arrows {
   position: absolute;
   left: 210px;
   bottom: 40px;
   z-index: 3;
 }
 
-.line-animation{
+.line-animation {
   stroke-dashoffset: 600;
   stroke-dasharray: 600;
   animation: animdash 5s infinite 6s;
 }
 
-@keyframes animdash{
-  to{
+@keyframes animdash {
+  to {
     stroke-dashoffset: 0;
   }
 }
+
+.surf {
+  padding: 160px 0 210px;
+  background-image: url('../img/surf-bg.png');
+  background-position: right 200px;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.surf__subtitle {
+  text-align: right;
+  padding-right: 80px;
+  margin-top: -86px;
+}
+
+.surf-box{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 750px;
+}
+
 
 
 

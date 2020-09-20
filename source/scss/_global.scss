@@ -1,60 +1,54 @@
-// html{
-//   box-sizing: border-box;
-//   scroll-behavior: smooth;
-// }
+html {
+  box-sizing: border-box;
+}
 
-// *,*::before, *::after{
-//   box-sizing: inherit;
-// }
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 
-a{
+body {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: #171919;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  min-width: 320px;
+  overflow-x: hidden;
+}
+
+a {
+  display: inline-block;
   text-decoration: none;
-  color: inherit;
+  color: #FFFFFF;
 }
 
 ul,
-li{
+li {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6{
-  margin: 0;
-  font-size: inherit;
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
-body{
-  min-width: 320px;
-  overflow-x: hidden;
-  // position: relative;
-  color: #fff;
-  font-family: 'Fira Sans', sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-}
-
-.suptitle-left{
+.headline-left {
   font-size: 22px;
   line-height: 32px;
 
   letter-spacing: 7.33333px;
-  text-transform: uppercase;
-
-  mix-blend-mode: normal;
   opacity: 0.5;
 
   padding-left: 103px;
   position: relative;
   display: inline-block;
 
-  &::before{
+  &::before {
     content: '';
     position: absolute;
     width: 80px;
@@ -62,5 +56,71 @@ body{
     background-color: #fff;
     left: 0;
     top: 50%;
+  }
+}
+
+.headline-right {
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 7.33333px;
+  opacity: 0.5;
+  padding-right: 103px;
+  position: relative;
+  display: inline-block;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 1px;
+    background-color: #FFFFFF;
+    right: 0;
+    top: 50%;
+  }
+}
+
+.title {
+  span {
+    font-weight: 800;
+    font-size: 200px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.02);
+    position: relative;
+    transform: translateX(-50px);
+    display: inline-block;
+  }
+
+  h3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 80px;
+    text-transform: uppercase;
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 80px;
+      height: 1px;
+      background-color: $green;
+    }
+  }
+}
+
+.subtitle {
+  display: inline-block;
+  text-align: right;
+
+  &__head {
+    font-weight: 800;
+    font-size: 40px;
+    padding-right: 6px;
+    span {
+      font-weight: 100;
+    }
   }
 }
