@@ -4,6 +4,7 @@
   "private": true,
   "description": "Личный проект",
   "devDependencies": {
+    "animate.css": "4.1.1",
     "autoprefixer": "9.8.6",
     "browser-sync": "2.26.12",
     "del": "5.0.0",

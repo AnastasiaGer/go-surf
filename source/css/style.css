@@ -860,3 +860,29 @@ span {
     height: 13px;
     top: 0;
     left: 0; }
+
+.header__map {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 3; }
+
+.header__arrows {
+  position: absolute;
+  left: 210px;
+  bottom: 40px;
+  z-index: 3; }
+
+.line-animation {
+  stroke-dashoffset: 600;
+  stroke-dasharray: 600;
+  -webkit-animation: animdash 5s infinite 6s;
+          animation: animdash 5s infinite 6s; }
+
+@-webkit-keyframes animdash {
+  to {
+    stroke-dashoffset: 0; } }
+
+@keyframes animdash {
+  to {
+    stroke-dashoffset: 0; } }
