@@ -18,7 +18,7 @@ var del = require("del");
 
 gulp.task("css", function () {
   return gulp.src([
-    'source/scss/style.scss'
+    'source/scss/style.scss',
   ])
     .pipe(plumber())
     .pipe(sourcemap.init())
