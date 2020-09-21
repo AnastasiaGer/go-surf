@@ -816,6 +816,60 @@ li {
   padding-bottom: 265px;
   margin-bottom: 35px; }
 
+.quantity {
+  display: inline-block; }
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0; }
+
+input[type=number] {
+  -moz-appearance: textfield; }
+
+.quantity input {
+  width: 45px;
+  height: 42px;
+  display: inline-block;
+  border: none;
+  background-color: transparent;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 36px;
+  color: #FFFFFF; }
+
+.quantity input:focus {
+  outline: 0; }
+
+.quantity-nav {
+  float: left;
+  position: static;
+  height: 42px; }
+
+.quantity-button {
+  position: relative;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 45px; }
+
+.quantity-button.quantity-up {
+  position: absolute;
+  right: 0px; }
+
+.quantity-button.quantity-down {
+  position: absolute;
+  right: 25px; }
+
 .header {
   position: relative;
   height: 100vh; }
@@ -1208,6 +1262,11 @@ li {
     top: 225px;
     opacity: .5; }
 
+.holder-sleep {
+  background-image: url("../img/flowers.png");
+  background-position: bottom right;
+  background-repeat: no-repeat; }
+
 .holder-slider__head {
   background-repeat: no-repeat;
   background-position: top left;
@@ -1221,11 +1280,20 @@ li {
   background-position: right center; }
   .holder-slider__descr .descr__head {
     position: relative;
-    padding-right: 78px; }
+    padding-right: 215px; }
     .holder-slider__descr .descr__head img {
       position: absolute;
       right: 0;
       top: 0; }
+    .holder-slider__descr .descr__head .holder__star-list {
+      position: absolute;
+      right: 0;
+      top: 0; }
+      .holder-slider__descr .descr__head .holder__star-list li {
+        display: inline-block;
+        margin-left: -25px; }
+      .holder-slider__descr .descr__head .holder__star-list img {
+        position: static; }
 
 .holder-slider__subtitle {
   text-align: right;
@@ -1268,7 +1336,7 @@ li {
   font-size: 40px;
   padding-left: 40px;
   position: relative; }
-  .holder-slider__info-title span {
+  .holder-slider__info-title .holder-pricing__span {
     position: absolute;
     bottom: -10px;
     right: 0;
