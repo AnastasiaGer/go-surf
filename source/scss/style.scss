@@ -502,14 +502,15 @@
   background-image: url('../img/travel-bg.png');
   background-position: bottom right;
   background-repeat: no-repeat;
-  .slider-arrows{
+
+  .slider-arrows {
     top: 225px;
     opacity: .5;
   }
 }
 
-.holder-sleep{
-  background-image: url('../img/flowers.png');
+.holder-sleep {
+  background-image: url('../img/flower.png');
   background-position: bottom right;
   background-repeat: no-repeat;
 }
@@ -527,23 +528,27 @@
     margin-top: -230px;
     background-repeat: no-repeat;
     background-position: right center;
-    .descr__head{
+    background-size: contain;
+
+    .descr__head {
       position: relative;
-      padding-right: 215px;
-      img{
+      padding-right: 68px;
+      &.descr__head-sleep {
+        padding-right: 215px;
+      }
+
+      img {
         position: absolute;
         right: 0;
         top: 0;
       }
-      .holder__star-list{
+
+      .holder__star-list {
         position: absolute;
         right: 0;
         top: 0;
-        li {
-          display: inline-block;
-          margin-left: -25px;
-        }
-        img{
+
+        img {
           position: static;
         }
       }
@@ -593,7 +598,8 @@
   font-size: 40px;
   padding-left: 40px;
   position: relative;
-  .holder-pricing__span{
+
+  .holder-pricing__span {
     position: absolute;
     bottom: -10px;
     right: 0;

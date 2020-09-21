@@ -870,6 +870,10 @@ input[type=number] {
   position: absolute;
   right: 25px; }
 
+.star-list li {
+  display: inline-block;
+  margin-left: -25px; }
+
 .header {
   position: relative;
   height: 100vh; }
@@ -1263,7 +1267,7 @@ input[type=number] {
     opacity: .5; }
 
 .holder-sleep {
-  background-image: url("../img/flowers.png");
+  background-image: url("../img/flower.png");
   background-position: bottom right;
   background-repeat: no-repeat; }
 
@@ -1277,10 +1281,13 @@ input[type=number] {
   min-height: 320px;
   margin-top: -230px;
   background-repeat: no-repeat;
-  background-position: right center; }
+  background-position: right center;
+  background-size: contain; }
   .holder-slider__descr .descr__head {
     position: relative;
-    padding-right: 215px; }
+    padding-right: 68px; }
+    .holder-slider__descr .descr__head.descr__head-sleep {
+      padding-right: 215px; }
     .holder-slider__descr .descr__head img {
       position: absolute;
       right: 0;
@@ -1289,9 +1296,6 @@ input[type=number] {
       position: absolute;
       right: 0;
       top: 0; }
-      .holder-slider__descr .descr__head .holder__star-list li {
-        display: inline-block;
-        margin-left: -25px; }
       .holder-slider__descr .descr__head .holder__star-list img {
         position: static; }
 
