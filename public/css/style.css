@@ -809,11 +809,12 @@ li {
               transform: translateY(-50%); }
 
 .surf,
-.travel {
+.holder {
   padding: 160px 0 120px; }
 
-.travel {
-  padding-bottom: 265px; }
+.holder {
+  padding-bottom: 265px;
+  margin-bottom: 35px; }
 
 .header {
   position: relative;
@@ -1199,54 +1200,54 @@ li {
         left: auto;
         right: 0; }
 
-.travel {
+.holder {
   background-image: url("../img/travel-bg.png");
   background-position: bottom right;
   background-repeat: no-repeat; }
-  .travel .slider-arrows {
+  .holder .slider-arrows {
     top: 225px;
     opacity: .5; }
 
-.travel-slider__head {
+.holder-slider__head {
   background-repeat: no-repeat;
   background-position: top left;
   min-height: 780px; }
 
-.travel-slider__descr {
+.holder-slider__descr {
   padding: 160px 0 0 132px;
   min-height: 320px;
   margin-top: -230px;
   background-repeat: no-repeat;
   background-position: right center; }
-  .travel-slider__descr .descr__head {
+  .holder-slider__descr .descr__head {
     position: relative;
     padding-right: 78px; }
-    .travel-slider__descr .descr__head img {
+    .holder-slider__descr .descr__head img {
       position: absolute;
       right: 0;
       top: 0; }
 
-.travel-slider__subtitle {
+.holder-slider__subtitle {
   text-align: right;
   padding-right: 80px;
   padding-top: 132px; }
 
-.travel-slider__btn {
+.holder-slider__btn {
   text-align: center; }
 
-.travel-slider__info {
+.holder-slider__info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around; }
 
-.travel-slider__info-item {
+.holder-slider__info-item {
   min-height: 200px;
   margin-bottom: 66px;
   position: relative; }
 
-.travel-slider__info-subtitle {
+.holder-slider__info-subtitle {
   position: absolute;
   font-weight: normal;
   font-size: 18px;
@@ -1262,12 +1263,12 @@ li {
   width: 200px;
   height: 0; }
 
-.travel-slider__info-title {
+.holder-slider__info-title {
   font-weight: 800;
   font-size: 40px;
   padding-left: 40px;
   position: relative; }
-  .travel-slider__info-title span {
+  .holder-slider__info-title span {
     position: absolute;
     bottom: -10px;
     right: 0;
