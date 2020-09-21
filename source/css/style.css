@@ -770,6 +770,15 @@ li {
     .subtitle__head span {
       font-weight: 100; }
 
+.descr {
+  display: inline-block;
+  padding-left: 5px; }
+  .descr__head {
+    font-weight: 800;
+    font-size: 40px; }
+  .descr span {
+    font-weight: 100; }
+
 .btn {
   font-weight: 800;
   font-size: 40px;
@@ -798,6 +807,10 @@ li {
       right: 17px;
       -webkit-transform: translateY(-50%);
               transform: translateY(-50%); }
+
+.surf,
+.travel {
+  padding: 160px 0 120px; }
 
 .header {
   position: relative;
@@ -971,7 +984,6 @@ li {
     stroke-dashoffset: 0; } }
 
 .surf {
-  padding: 160px 0 120px;
   background-image: url("../img/surf-bg.png");
   background-position: right 200px;
   background-repeat: no-repeat;
@@ -1183,3 +1195,14 @@ li {
       .slider-dots--8 .slider-dots__content::before {
         left: auto;
         right: 0; }
+
+.travel {
+  background-image: url("../img/travel-bg.png");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: auto; }
+
+.travel-slider__head {
+  background-repeat: no-repeat;
+  background-position: top left;
+  min-height: 780px; }

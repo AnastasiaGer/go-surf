@@ -209,7 +209,6 @@
 }
 
 .surf {
-  padding: 160px 0 120px;
   background-image: url('../img/surf-bg.png');
   background-position: right 200px;
   background-repeat: no-repeat;
@@ -498,6 +497,27 @@
     }
   }
 }
+
+.travel{
+  background-image: url('../img/travel-bg.png');
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.travel-slider{
+  &__head{
+    background-repeat: no-repeat;
+    background-position: top left;
+    min-height: 780px;
+  }
+  &__descr{
+
+  }
+}
+
+
+
 
 
 @import "media";
