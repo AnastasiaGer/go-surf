@@ -835,9 +835,6 @@ li {
   line-height: 46px;
   margin-bottom: 20px; }
 
-.slider-item__info-link img {
-  display: inline-block; }
-
 .slider-arrows {
   position: absolute;
   top: 40px;
@@ -848,14 +845,13 @@ li {
 .slider-arrows__left {
   right: 125px; }
 
-.slider-dots {
+.slider-dotshead {
   position: absolute;
   right: 50px;
   bottom: 36px;
   max-width: 920px;
-  width: 100%;
-  color: #fff; }
-  .slider-dots .slick-current .dots-box {
+  width: 100%; }
+  .slider-dotshead .slick-current .dots-box {
     border-top: 4px solid #4AF6CD; }
 
 .dots-box {
@@ -889,8 +885,6 @@ li {
   border-right: 1px solid rgba(255, 255, 255, 0.3);
   height: 100vh;
   text-align: center; }
-  .header__aside .logo__img {
-    width: 100px; }
 
 .header__title {
   position: absolute;
