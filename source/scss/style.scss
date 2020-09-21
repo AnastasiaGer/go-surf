@@ -219,7 +219,7 @@
 }
 
 .surf {
-  padding: 160px 0 210px;
+  padding: 160px 0 120px;
   background-image: url('../img/surf-bg.png');
   background-position: right 200px;
   background-repeat: no-repeat;
@@ -232,12 +232,98 @@
   margin-top: -86px;
 }
 
-.surf-box{
+.surf-slider {
+  padding-top: 110px;
+
+  .slider-arrows {
+    top: 50px;
+    opacity: .25;
+  }
+
+  .slick-slide:nth-child(4n + 1) {
+    .surf-box {
+      margin-top: 32px;
+    }
+  }
+
+  .slick-slide:nth-child(4n + 3) {
+    .surf-box {
+      margin-top: 89px;
+    }
+  }
+
+  .slick-current {
+    .serf-box__inner-btn {
+      display: block;
+    }
+
+    .serf-box__inner {
+      background: rgba(#1C2121, .3);
+    }
+
+  }
+}
+
+.surf-box {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 750px;
+
+  &__inner {
+    min-height: 750px;
+    background: rgba(#1C2121, 0.85);
+    position: relative;
+    transition: all .5s;
+
+    &:hover {
+      background: rgba(#1C2121, .3);
+
+      .serf-box__inner-btn {
+        display: block;
+      }
+    }
+  }
 }
+
+.surf-box__inner-title {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 36px;
+  padding: 72px 0 0 40px;
+  width: 140px;
+}
+
+.surf-box__inner-location {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+
+  letter-spacing: 8px;
+
+  transform: rotate(-90deg);
+  position: absolute;
+  left: 40px;
+  bottom: 80px;
+  height: 0;
+  width: 0;
+  white-space: nowrap;
+
+  span {
+    font-weight: 100;
+  }
+}
+
+.serf-box__inner-btn {
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  display: none;
+}
+
+
 
 
 
