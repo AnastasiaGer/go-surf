@@ -119,62 +119,68 @@ li {
     font-weight: 800;
     font-size: 40px;
     padding-right: 6px;
+
     span {
       font-weight: 100;
     }
   }
 }
 
-.descr{
+.descr {
   display: inline-block;
   padding-left: 5px;
-  &__head{
-      font-weight: 800;
-      font-size: 40px;
+
+  &__head {
+    font-weight: 800;
+    font-size: 40px;
   }
-  span{
-      font-weight: 100;
+
+  span {
+    font-weight: 100;
   }
 }
 
-.btn{
+.btn {
   font-weight: 800;
   font-size: 40px;
   line-height: 36px;
-  span{
-      padding: 17px 57px 15px 17px;
-      background-color: $green;
-      display: inline-block;
-      margin-left: 19px;
-      position: relative;
-      &::before{
-          content: '';
-          position: absolute;
-          width: 20px;
-          height: 1px;
-          background-color: #fff;
-          top: 50%;
-          left: -10px;
-      }
-      &::after{
-          content: '';
-          position: absolute;
-          width: 25px;
-          height: 21px;
-          background-image: url('../img/arrows-right.svg');
-          top: 50%;
-          right: 17px;
-          transform: translateY(-50%);
-      }
+
+  span {
+    padding: 17px 57px 15px 17px;
+    background-color: $green;
+    display: inline-block;
+    margin-left: 19px;
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 1px;
+      background-color: #fff;
+      top: 50%;
+      left: -10px;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      width: 25px;
+      height: 21px;
+      background-image: url('../img/arrows-right.svg');
+      top: 50%;
+      right: 17px;
+      transform: translateY(-50%);
+    }
   }
 }
 
 .surf,
-.holder{
+.holder {
   padding: 160px 0 120px;
 }
 
-.holder{
+.holder {
   padding-bottom: 265px;
   margin-bottom: 35px;
 }
@@ -182,36 +188,39 @@ li {
 .quantity {
   display: inline-block;
 }
+
 input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button
-{
+input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
-input[type=number]
-{
+input[type=number] {
   -moz-appearance: textfield;
 }
+
 .quantity input {
-    width: 45px;
-    height: 42px;
-    display: inline-block;
-    border: none;
-    background-color: transparent;
-    font-weight: 800;
-    font-size: 40px;
-    line-height: 36px;
-    color: #FFFFFF;
+  width: 45px;
+  height: 42px;
+  display: inline-block;
+  border: none;
+  background-color: transparent;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 36px;
+  color: #FFFFFF;
 }
+
 .quantity input:focus {
   outline: 0;
 }
+
 .quantity-nav {
   float: left;
   position: static;
   height: 42px;
 }
+
 .quantity-button {
   position: relative;
   cursor: pointer;
@@ -222,19 +231,22 @@ input[type=number]
   justify-content: center;
   top: 45px;
 }
+
 .quantity-button.quantity-up {
   position: absolute;
   right: 0px;
 }
+
 .quantity-button.quantity-down {
   position: absolute;
   right: 25px;
 }
 
 .star-list{
-  li {
-    display: inline-block;
-    margin-left: -25px;
+  li{
+      display: inline-block;
+      & + li{
+          margin-left: -25px;
+      }
   }
 }
-
