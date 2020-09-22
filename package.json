@@ -22,7 +22,8 @@
     "html-minifier": "4.0.0",
     "posthtml-include": "1.4.3",
     "stylelint": "13.6.1",
-    "stylelint-config-htmlacademy": "0.1.x"
+    "stylelint-config-htmlacademy": "0.1.x",
+    "wowjs": "1.1.3"
   },
   "scripts": {
     "editorconfig": "editorconfig-cli",
