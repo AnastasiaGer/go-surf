@@ -1389,7 +1389,7 @@ input[type=number] {
     padding-left: 0px; }
 
 .shop__slider-content {
-  padding-left: 0px;
+  padding-left: 170px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
