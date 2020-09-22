@@ -1075,7 +1075,7 @@ input[type=number] {
     margin-top: 89px; }
   .surf-slider .slick-current .surf-box__inner-btn {
     display: block; }
-  .surf-slider .slick-current .serf-box__inner {
+  .surf-slider .slick-current .surf-box__inner {
     background: rgba(28, 33, 33, 0.3); }
 
 .surf-box__wrapper {
@@ -1584,7 +1584,7 @@ input[type=number] {
       margin-bottom: 5px; }
   .header__arrows {
     left: 130px; }
-  .serf-box__inner {
+  .surf-box__inner {
     min-height: 650px; } }
 
 @media (max-width: 1365px) {
@@ -1710,7 +1710,7 @@ input[type=number] {
 @media (max-width: 1150px) {
   .holder-slider__descr {
     padding: 160px 0 0 20px; }
-  .serf, .holder {
+  .surf, .holder {
     padding: 70px 0 50px; } }
 
 @media (max-width: 1102px) {
@@ -1813,7 +1813,7 @@ input[type=number] {
     font-size: 18px; }
   .dots-box__name {
     line-height: 18px; }
-  .serf__subtitle {
+  .surf__subtitle {
     padding-right: 20px; }
   .holder-slider__info {
     display: block; }
@@ -1878,9 +1878,9 @@ input[type=number] {
     font-size: 87px;
     padding-bottom: 80px;
     padding-left: 45px; }
-  .serf-slider .slider-arrows {
+  .surf-slider .slider-arrows {
     top: 20px; }
-  .serf-slider {
+  .surf-slider {
     padding-top: 65px; }
   .holder-slider__head {
     min-height: 720px; }
